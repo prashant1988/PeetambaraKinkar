@@ -1,0 +1,22 @@
+<h2 class="image_content">Support us as a volunteer member</h2>
+
+
+<%= form_tag "/support_us" do  %>
+    <div class="form_settings">
+     <p><span><%= "Name:" %></span><%= text_field_tag :name,params[:name]%></p>
+     <p><span><%= "Email:" %></span><%= text_field_tag :email %></p>
+     <p><span><%= "Address:" %></span><%= text_area_tag :addess %></p>
+     <p style="padding-top: 15px"><span>&nbsp;</span><input class="submit" type="submit" name="contact_submitted" value="submit" /></p>
+
+    </div>
+<% end %>
+
+<!--<form action="#" method="post">-->
+  <!--<div class="form_settings">-->
+    <!--<p><span>Form field example</span><input type="text" name="name" value="" /></p>-->
+    <!--<p><span>Textarea example</span><textarea rows="8" cols="50" name="name"></textarea></p>-->
+    <!--<p><span>Checkbox example</span><input class="checkbox" type="checkbox" name="name" value="" /></p>-->
+    <!--<p><span>Dropdown list example</span><select id="id" name="name"><option value="1">Example 1</option><option value="2">Example 2</option></select></p>-->
+    <!--<p style="padding-top: 15px"><span>&nbsp;</span><input class="submit" type="submit" name="name" value="button" /></p>-->
+  <!--</div>-->
+<!--</form>-->

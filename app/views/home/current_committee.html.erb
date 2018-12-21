@@ -1,0 +1,13 @@
+<h1 class="center">Current Committee</h1>
+
+
+<% workbook = Roo::Spreadsheet.open './mpct_about_us.xlsx'%>
+<% worksheets = workbook.sheets.first %>
+
+<table class="table_center ">
+  <%= workbook.sheet(worksheets).each_row_streaming do |rows|  %>
+      <tr><% rows.map do|row|%>
+          <td><%= row.value %></td>
+      <%end%></tr>
+  <%end%>
+</table>
