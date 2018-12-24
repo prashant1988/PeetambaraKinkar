@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4705bd07-077f-4ccf-aa44-94326805ad6c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="peetambara_kinkar.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -125,7 +122,7 @@
       <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="11" selection-start="106" selection-end="106" vertical-scroll-proportion="0.051252846">
+            <state line="9" column="8" selection-start="260" selection-end="260" vertical-scroll-proportion="0.15375854">
               <folding />
             </state>
           </provider>
@@ -1064,7 +1061,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="11" selection-start="106" selection-end="106" vertical-scroll-proportion="0.051252846">
+        <state line="9" column="8" selection-start="260" selection-end="260" vertical-scroll-proportion="0.15375854">
           <folding />
         </state>
       </provider>
