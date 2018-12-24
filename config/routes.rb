@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
-  get 'homes', to:'home#index'
+  get '/', to:'home#index'
+  get '/homes', to:'home#index'
   get 'contacts_us', to:'home#contacts_us'
   get 'current_committee', to:'home#current_committee'
   get 'sub_committee', to:'home#sub_committee'
