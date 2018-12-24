@@ -20,6 +20,8 @@
 # Ignore uploaded files in development
 /storage/*
 !/storage/.keep
+/.idea/*
+
 
 /node_modules
 /yarn-error.log
