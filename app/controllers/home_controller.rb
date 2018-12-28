@@ -33,6 +33,9 @@ class HomeController < ApplicationController
   end
 
   def contacts_us
+    if params["contact_submitted"] == "submit"
+      render index
 
+    end
   end
 end

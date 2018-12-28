@@ -1,12 +1,21 @@
 <h1 class="center">Members</h1>
 
-<% workbook = Roo::Spreadsheet.open './mpct_about_us.xlsx'%>
-<% worksheets = workbook.sheets.last %>
+<div id="logo">
+  <%=image_tag("1.JPG", :alt=> "members1",:class=>"image_width center")%>
+  <%=image_tag("4.jpg", :alt=> "members1",:class=>"image_width")%>
+  <%=image_tag("3.jpg", :alt=> "members1",:class=>"image_width")%>
+  <%=image_tag("5.JPG", :alt=> "members1",:class=>"image_width")%>
+  <%=image_tag("6.JPG", :alt=> "members1",:class=>"image_width")%>
+  <%=image_tag("7.JPG", :alt=> "members1",:class=>"image_width")%>
+</div>
 
-<table class="table_center">
-  <%= workbook.sheet(worksheets).each_row_streaming do |rows|  %>
-      <tr><% rows.map do|row|%>
-            <td><%= row.value %></td>
-        <%end%></tr>
-  <%end%>
-</table>
+<%# workbook = Roo::Spreadsheet.open './mpct_about_us.xlsx'%>
+<%# worksheets = workbook.sheets.last %>
+
+<!--<table class="table_center">-->
+  <!--<%#= workbook.sheet(worksheets).each_row_streaming do |rows|  %>-->
+      <tr><%# rows.map do|row|%>
+            <!--<td><%#= row.value %></td>-->
+        <%#end%></tr>
+  <!--<%#end%>-->
+<!--</table>-->
